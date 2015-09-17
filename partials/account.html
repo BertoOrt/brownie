@@ -1,0 +1,213 @@
+<!-- start container -->
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="row">
+
+        <!-- start left nav -->
+        <div class="col-sm-4" id="bba-profile-nav">
+
+          <div id="bba-search-filter1-header">
+            <div>
+              Your Account
+            </div>
+          </div>
+          <div id="bba-search-filter1">
+            <div>
+              <a href="#orders" >Order History</a>
+            </div>
+            <div>
+              <a href="#email" >Change Email</a>
+            </div>
+            <div>
+              <a href="#username">Change Username</a>
+            </div>
+            <div>
+              <a href="#password" >Change Password</a>
+            </div>
+            <div>
+              <a href="../../index.html" >Sign Out</a>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- end left nav -->
+
+        <!-- start content rows -->
+        <div class="col-sm-8">
+          <div class="bba-hideme">
+            <!-- header -->
+            <div class="row" id="email">
+              <div class="col-xs-12" class="bba-filter-header">
+                <h1 >Order History</h1>
+              </div>
+            </div>
+            <!-- end header -->
+            <!-- start form -->
+            <div class="bba-order-history-div">
+              <table class="bba-order-history">
+                <tr>
+                  <th>
+                    Date
+                  </th>
+                  <th>
+                    Order #
+                  </th>
+                  <th>
+                    Child's Name
+                  </th>
+                  <th>
+                    Status
+                  </th>
+                </tr>
+                <tr>
+                  <td>
+                    9/5/15
+                  </td>
+                  <td>
+                    <a href="#" id="bba-order-156">156</a>
+                  </td>
+                  <td>
+                    Sarah
+                  </td>
+                  <td>
+                    Delivered 9/12/15
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <!-- end form -->
+            <div class="bba-div-spacer">
+              &nbsp;
+            </div>
+          </div>
+          <div class="bba-hideme">
+            <!-- header -->
+            <div class="row" id="email">
+              <div class="col-xs-12" class="bba-filter-header">
+                <h1 >Change Email</h1>
+              </div>
+            </div>
+            <!-- end header -->
+            <!-- start form -->
+            <div class="bba-current-settings">
+                Current email address: <span class="bba-current-value">ron1972@gmail.com</span>
+              </div>
+            <div class="bba-settings-background">
+
+              <form action="/signup" method="POST">
+                <input type="text" class="form-control" placeholder="New email" name="sign_up-username" id="sign_up-username" /><br>
+
+                <input type="password" class="form-control" placeholder="Password" id="sign_up-password" name="sign_up-password" /><br>
+                <button class="btn btn-primary bba-settings-button" id="sign_up-body">Change email</button>
+              </form>
+            </div>
+            <!-- end form -->
+            <div class="bba-div-spacer">
+              &nbsp;
+            </div>
+          </div>
+          <div class="bba-hideme">
+            <!-- header -->
+            <div class="row" id="username">
+              <div class="col-xs-12" class="bba-filter-header">
+                <h1 >Change Username</h1>
+              </div>
+            </div>
+            <!-- end header -->
+            <!-- start form -->
+            <div class="bba-current-settings">
+                Current username: <span class="bba-current-value">ronDenver</span>
+              </div>
+            <div class="bba-settings-background">
+
+              <form action="/edit-username" method="POST">
+                <input type="text" class="form-control" placeholder="New username" name="edit-username" id="sign_up-username" /><br>
+                <button class="btn btn-primary bba-settings-button" id="sign_up-body">Change username</button>
+              </form>
+            </div>
+            <!-- end form -->
+            <div class="bba-div-spacer">
+              &nbsp;
+            </div>
+          </div>
+
+
+
+          <!-- header -->
+          <div class="bba-hideme">
+            <div class="row" id="password">
+              <div class="col-xs-12 bba-top-header">
+                <h1>Change Password</h1>
+              </div>
+            </div>
+            <!-- end header -->
+            <!-- start form -->
+            <div  class="bba-current-settings">
+                &nbsp;
+              </div>
+            <div class="bba-settings-background">
+
+              <form action="/profile-password" method="POST">
+                <input type="password" class="form-control" placeholder="Old password" id="old-password" name="sign_up-password" /><br>
+                <input type="password" class="form-control" placeholder="New password" id="new-password" name="sign_up-password" /><br>
+                <button class="btn btn-primary bba-settings-button" id="sign_up-body">Change password</button>
+              </form>
+            </div>
+            <!-- end form -->
+            <div class="bba-div-spacer">
+              &nbsp;
+            </div>
+          </div>
+
+      </div>
+      </div>
+    </div>
+  </div>
+</div> <!-- end container -->
+<div id="bba-blank-modal-pane">
+  <div id="bba-blank-modal-pane-content">
+    <div id="bba-blank-modal-pane-close">
+      <a href="#" ><i class="fa fa-times-circle" id="bba-close-login-pane">&nbsp;</i></a>
+    </div>
+    <div id="bba-login-title">
+      Order 156
+    </div>
+    <div id="bba-sign-in-form">
+      <div>
+        <table class="table bba-order-history " >
+          <tr>
+            <th>
+              Child's Name
+            </th>
+            <th>
+              Gender
+            </th>
+            <th>
+              Note
+            </th>
+            <th>
+              Shipping Address
+            </th>
+          </tr>
+          <tr>
+            <td>
+              Sarah Schmidt
+            </td>
+            <td>
+              female
+            </td>
+            <td>
+              To Sarah, with love, Jeff &amp; Susan
+            </td>
+            <td>
+              4000 S Dexter Way, Denver, CO 80222
+            </td>
+          </tr>
+        </table>
+      </div>
+
+    </div>
+  </div>
+</div>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sign In - Brownie's Big Adventure</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../assets/stylesheet/font-awesome.min.css">
+    <link rel="stylesheet" href="../../assets/stylesheet/bootstrap.min.css">
+    <link rel="icon" type="image/png" href="../../assets/img/favicon.png">
+    <link href='https://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../../assets/stylesheet/styles.css">
+    <link rel="stylesheet" href="../../assets/stylesheet/styles2.css">
+  </head>
+  <body>
+
+        <!-- start navbar -->
+        <nav class="navbar navbar navbar-fixed-top" style="background-color:#f5f5f5; ">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" style="background-color:#626E9A">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar" style="background-color:white"></span>
+            <span class="icon-bar"  style="background-color:white"></span>
+            <span class="icon-bar"  style="background-color:white"></span>
+          </button>
+          <a class="navbar-brand " href="../../index.html"><span class="ep-brand">Brownie's Big Adventure</span></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse bba-navbar" aria-expanded="false" style="height: 1px;">
+          <ul class="nav navbar-nav navbar-right ep-nav-link">
+            <li><a class="ep-nav-sign_in" href="create-book.html" >
+              <i class="fa fa-book" style=""> Create Book</i></a></li>
+            <li><a class="ep-nav-sign_in" href="sign-in.html" >
+              <i class="fa fa-sign-in" style="color:black"> Sign In</i></a></li>
+            <li>
+              <a class="ep-nav-sign_up" href="sign-up.html" ><i class="fa fa-pencil-square-o"> Sign Up</i></a>
+            </li>
+              <li><a href="contact.html"><i class="fa fa-envelope" > Contact</i></a></li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+        <!-- end navbar -->
+
+
+        <div style="height:55px">
+          &nbsp;
+        </div>
+      <!-- start container -->
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="row">
+
+
+
+              <!-- start content rows -->
+              <div class="col-sm-12">
+                <div class="ep-hideme">
+                  <!-- header -->
+                  <div class="row" id="user-info">
+                    <div class="col-xs-12" style="text-align:center; ">
+                      <h1 style="font-weight:lighter; font-size:36pt; "  >Sign In</h1>
+                    </div>
+                  </div>
+                  <!-- end header -->
+                  <!-- start form -->
+                  <div >
+            				<div style="padding-top:25px;">
+
+            					<div id="ep-sign-in-form">
+            						<div class="ep-login-button-div" style="padding-bottom:10px; font-size:16pt; color:#999999">
+            							You can sign in using
+            							<a href="create-book.html" class="btn btn-primary ep-fb-login"><i class="fa fa-facebook-official"> Facebook</i></a>
+            						</div>
+            						<div style="text-align:center; padding-top:10px; padding-bottom:25px; font-size:16pt; color:#999999">
+            							-or-
+            						</div>
+
+            					</div>
+            				</div>
+            			</div>
+                  <div style="text-align:center; width:75%; border:1px solid #CCCCCC; background-color:#f5f5f5; padding:35px; margin:0 auto;">
+
+                    <form action="/signup" method="POST">
+                      <input type="text" class="form-control" placeholder="Your email address or username" name="sign_up-email" id="sign_up-email" /><br>
+
+                      <input type="password" class="form-control" placeholder="Your password" id="sign_up-password" name="sign_up-password" /><br>
+                    </form>
+                    <div style="text-align:left; ">
+                      <a href="#">forgot password?</a>
+                    </div>
+                    <div style="text-align:center; width:75%; padding:35px; margin:0 auto;">
+
+                      <form action="/edit-photo" method="POST">
+
+                        <a href="create-book.html" class="btn btn-primary" style="width:75%; font-size:16pt; font-weight:lighter; letter-spacing:1px" id="sign_up-body">Sign in</a>
+                      </form>
+                    </div>
+
+                    <div>
+                      <a href="sign-up.html">Need to create an account?</a>
+                    </div>
+                  </div>
+                  <!-- end form -->
+
+
+            </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- end container -->
+
+
+
+
+    <script src="../../assets/js/jquery-1.11.3.min.js"></script>
+    <script src="../../assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../assets/js/client.js"></script>
+  </body>
+</html>

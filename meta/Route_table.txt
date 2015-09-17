@@ -1,0 +1,21 @@
+Route table
+
+Sign up form on index.html
+form routes:
+
+"/signup", method='POST'
+"/contact", method='POST'
+"/create-data_collection", method='POST'
+"/create-team", post
+"/search-results", post
+"/profile-photo", post
+"/profile-username", post
+"/profile-email", post
+"/profile-password", post
+"/create-message", post
+"/edit-data", post
+"/invite-user", post
+"/join", post
+"/follow-topics"
+"/follow-groups"
+"/invite-others"

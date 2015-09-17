@@ -1,0 +1,33 @@
+Epiphany product summary
+
+1. A user can sign up
+2. A user can sign in
+3. A user can create a group
+4. A user can upload a .csv using a drag & drop method
+5. The .csv is saved to Epiphany and is available as a public url
+6. A link to the .csv is saved in the user's "My Data" section
+7. The user can view their uploaded files
+8. The user can search through Epiphany's uploaded files (all users)
+9. A user can publish to their group the url of their file when they upload their file
+10. A user can publish to their group the url of their file through their "My Data"
+11. A user can download a .csv from a url
+12. A user can download a .csv from a url in JSON format
+13. A user can upload a JSON format data file through an API 
+14. When a user uploads a data file, they can upload a corresponding image (using cloudinary's api)
+15. When a user uploads a .csv/JSON file they have the option to attach an image: they can choose one from the library or upload their own
+16. Users can embedd data into their website
+17. we can use stripe to accept monthly payments for privacy
+18. set privacy access for a user
+19. set privacy access for a team
+20. encryption within the database for secure mode, using multiple layers
+
+
+Future product adds:
+1. Data visualization (Google charts, etc)
+2. Data analysis (IBM Watson)
+
+Marketing features:
+
+1. Make it easy to get & share data from/to the world
+2. Data privacy and encryption costs $15/month
+3. Make it easy to share data with groups

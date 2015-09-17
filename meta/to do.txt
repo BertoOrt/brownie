@@ -1,0 +1,21 @@
+search - on enter search & go to page
+
+1. home page
+2. sign in
+3. sign up
+
+
+6. local js and css and font files
+7. jquery on click signup button classes change
+
+Sagar:
+1. prod server
+2. dev server
+3. get pages working & connected
+4. Login - FB for anyone, not just devs
+5. login not working
+6. use my login pages
+7. don't require email after FB login
+8.dictionary of words for follow topics
+9. post to a group
+10. scroll with a 35px margin from top
